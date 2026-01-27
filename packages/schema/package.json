@@ -1,0 +1,19 @@
+{
+    "name": "@conductor/schema",
+    "version": "0.1.0",
+    "description": "Shared types for Conductor AI",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.0"
+    },
+    "files": [
+        "dist",
+        "src"
+    ]
+}
