@@ -70,7 +70,7 @@ DATABASE_URL=postgresql://conductor:conductor_dev@localhost:5432/conductor
 ```
 conductor/
 ├── apps/
-│   ├── web/          # Next.js 14 + React Flow (Canvas UI)
+│   ├── web/          # Next.js 16 + React Flow (Canvas UI)
 │   └── engine/       # FastAPI + LangGraph (Runtime)
 ├── packages/
 │   └── schema/       # Shared TypeScript/Pydantic types
@@ -102,7 +102,7 @@ conductor/
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | Next.js 14, React Flow, Tailwind CSS, Shadcn/UI |
+| Frontend | Next.js 16, React Flow, Tailwind CSS, Shadcn/UI |
 | Backend | FastAPI, LangGraph, Pydantic |
 | Database | PostgreSQL (checkpoints) |
 | Streaming | Server-Sent Events (SSE) |
@@ -113,7 +113,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## 🤝 Contributing
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome! Feel free to open an issue or a pull request.
 
 ---
 
