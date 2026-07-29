@@ -33,8 +33,8 @@ Conductor is a **Visual IDE for State Machines** that:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/conductor-ai.git
-cd conductor-ai
+git clone https://github.com/DanielSensual/conductor.git
+cd conductor
 
 # Start infrastructure
 docker-compose up -d

@@ -3,7 +3,7 @@ Pydantic models matching the frontend schema.
 """
 from enum import Enum
 from typing import Any, Literal, Optional, Union
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 # =============================================================================
@@ -167,8 +167,7 @@ class EdgeTraverseEvent(BaseEvent):
     fromNode: str = Field(alias="from")
     toNode: str = Field(alias="to")
 
-    class Config:
-        populate_by_name = True
+    model_config = ConfigDict(populate_by_name=True)
 
 
 class GraphCompleteEvent(BaseEvent):
